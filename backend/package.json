@@ -1,0 +1,22 @@
+{
+  "name": "bootcamp-igti-fullstack-desafio-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "backend desenvolvido com nodejs e mongoose para atender ao desafio final do bootcamp de fullstack developer do igti",
+  "main": "index.js",
+  "author": "rogeriol@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.23"
+  },
+  "scripts": {
+    "reset": "node --experimental-modules ./src/reset-data.js",
+    "dev": " nodemon --experimental-modules ./src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
